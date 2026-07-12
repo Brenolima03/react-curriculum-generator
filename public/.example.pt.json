@@ -1,0 +1,52 @@
+{
+  "FULLNAME": "CHANGE-ME",
+  "CITY": "CHANGE-ME",
+  "STATE": "CHANGE-ME",
+  "TELEPHONE": "CHANGE-ME",
+  "EMAIL": "CHANGE-ME",
+  "OBJECTIVE": "CHANGE-ME",
+  "SUMMARY": "CHANGE-ME",
+  "EDUCATION": [
+    {
+      "INSTITUTION": "CHANGE-ME",
+      "COURSE": "CHANGE-ME",
+      "START": "CHANGE-ME",
+      "END": "CHANGE-ME"
+    }
+  ],
+  "EXPERIENCE": [
+    {
+      "COMPANY": "CHANGE-ME",
+      "ROLE": "CHANGE-ME",
+      "DESCRIPTION": "CHANGE-ME",
+      "START": "CHANGE-ME",
+      "END": "CHANGE-ME"
+    },
+    {
+      "COMPANY": "CHANGE-ME",
+      "ROLE": "CHANGE-ME",
+      "DESCRIPTION": "CHANGE-ME",
+      "START": "CHANGE-ME",
+      "END": "CHANGE-ME"
+    }
+  ],
+  "LANGUAGES": [
+    {
+      "NAME": "CHANGE-ME",
+      "LEVEL": "CHANGE-ME"
+    },
+    {
+      "NAME": "CHANGE-ME",
+      "LEVEL": "CHANGE-ME"
+    }
+  ],
+  "COURSES": [
+    "CHANGE-ME",
+    "CHANGE-ME",
+    "CHANGE-ME",
+    "CHANGE-ME"
+  ],
+  "TECHNOLOGY": "CHANGE-ME",
+  "CHROME_BINARY_PATH": "CHANGE-ME",
+  "INDEX_HTML": "CHANGE-ME"
+}

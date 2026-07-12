@@ -1,0 +1,155 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 0 0% 23%;
+    --foreground: 0 0% 100%;
+
+    --card: 0 0% 18%;
+    --card-foreground: 0 0% 100%;
+
+    --popover: 0 0% 18%;
+    --popover-foreground: 0 0% 100%;
+
+    --primary: 210 60% 50%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 210 18% 30%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 0 0% 28%;
+    --muted-foreground: 0 0% 75%;
+
+    --accent: 210 60% 50%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 70% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 0 0% 35%;
+    --input: 0 0% 17%;
+    --ring: 210 60% 50%;
+
+    --radius: 0.5rem;
+
+    --success: 145 63% 42%;
+    --success-foreground: 0 0% 100%;
+
+    --label: 210 100% 65%;
+    --section-title: 210 45% 52%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+    box-sizing: border-box;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Helvetica', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.field {
+  @apply mb-3;
+}
+
+.field label {
+  @apply block font-semibold mb-1 text-[hsl(var(--label))];
+}
+
+.field input,
+.field select,
+.field textarea {
+  @apply w-full rounded-md border border-border px-3 py-2.5 text-sm transition-colors bg-[hsl(var(--input))] text-foreground;
+}
+
+.field input:focus,
+.field select:focus,
+.field textarea:focus {
+  @apply outline-none ring-2 ring-ring;
+}
+
+.field textarea {
+  @apply resize-y;
+}
+
+.field-row {
+  @apply grid grid-cols-1 gap-4 sm:grid-cols-2;
+}
+
+.form-section {
+  @apply rounded-lg p-6 mb-6 bg-[hsl(var(--card))];
+}
+
+.form-section h2 {
+  @apply text-lg font-bold mb-4 pb-2 border-b text-[hsl(var(--section-title))] border-[hsl(var(--section-title))];
+}
+
+.form-section .section-body {
+  @apply space-y-1;
+}
+
+.entry-list {
+  @apply space-y-3;
+}
+
+.entry-row {
+  @apply p-4 rounded-md border border-border relative bg-[hsl(var(--muted))];
+}
+
+.entry-row--inline {
+  @apply flex items-center gap-3 flex-wrap pt-7 pb-7;
+}
+
+.entry-row--inline .field {
+  @apply mb-0 relative;
+}
+
+.entry-row--inline .field label {
+  @apply absolute -top-6 left-0;
+}
+
+.btn-add {
+  @apply mt-3 px-4 py-2 rounded-md text-sm font-medium transition-opacity bg-[hsl(var(--secondary))] text-[hsl(var(--secondary-foreground))];
+}
+
+.btn-add:hover {
+  @apply opacity-80;
+}
+
+.btn-remove {
+  @apply px-3 py-2 rounded-md text-sm font-bold transition-opacity border-0 cursor-pointer bg-[hsl(var(--destructive))] text-[hsl(var(--destructive-foreground))];
+}
+
+.btn-remove:hover {
+  @apply opacity-80;
+}
+
+.btn-generate {
+  @apply px-6 py-3 rounded-lg text-base font-semibold transition-opacity cursor-pointer border-0 bg-[hsl(var(--success))] text-[hsl(var(--success-foreground))];
+}
+
+.btn-generate:hover {
+  @apply opacity-85;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}

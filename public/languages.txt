@@ -1,0 +1,102 @@
+Afrikaans
+Shqip
+Deutsch
+አማርኛ
+العربية
+Հայերեն
+অসমীয়া
+Azərbaycan dili
+Euskara
+বাংলা
+Беларуская
+Bosanski
+Български
+Català
+Cebuano
+Chichewa
+中文
+සිංහල
+한국어
+Corsu
+Hrvatski
+Kurdî
+Қазақ тілі
+ខ្មែរ
+Ikinyarwanda
+Кыргызча
+Dansk
+རྫོང་ཁ
+Slovenčina
+Slovenščina
+Español
+Esperanto
+Eesti
+فارسی
+Suomi
+Français
+Frysk
+Gàidhlig
+Cymraeg
+Ελληνικά
+ગુજરાતી
+Kreyòl ayisyen
+ʻŌlelo Hawaiʻi
+עברית
+हिन्दी
+Hmong
+Nederlands
+Magyar
+Bahasa Indonesia
+English
+Gaeilge
+Íslenska
+Italiano
+日本語
+Basa Jawa
+ಕನ್ನಡ
+ລາວ
+Latina
+Latviešu
+Lietuvių
+Lëtzebuergesch
+Македонски
+മലയാളം
+Bahasa Melayu
+Malagasy
+Malti
+Māori
+मराठी
+Монгол
+नेपाली
+Norsk
+ଓଡ଼ିଆ
+پښتو
+فارسی
+Polski
+Português
+ਪੰਜਾਬੀ
+Română
+Русский
+Gagana Samoa
+Српски
+Sesotho
+ChiShona
+سنڌي
+සිංහල
+Soomaali
+Basa Sunda
+Kiswahili
+Svenska
+Тоҷикӣ
+தமிழ்
+Татарча
+తెలుగు
+ไทย
+Türkçe
+Українська
+اردو
+Oʻzbek
+Tiếng Việt
+ייִדיש
+Yorùbá
+isiZulu
