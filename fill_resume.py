@@ -1,4 +1,5 @@
 import json
+import os
 import sys
 import time
 
@@ -16,11 +17,16 @@ data: dict = {}
 
 def init_browser() -> None:
   global browser, wait
+
+  base_dir = os.path.dirname(os.path.abspath(__file__))
+  brave_path = os.path.join(base_dir, "browsers", "brave", "Application", "brave.exe")
+  driver_path = os.path.join(base_dir, "chromedriver", "chromedriver-win64", "chromedriver.exe")
+
   options = Options()
-  bin_path = data.get("CHROME_BINARY_PATH")
-  if bin_path:
-    options.binary_location = bin_path
-  browser = webdriver.Chrome(service=Service(), options=options)
+  options.binary_location = brave_path
+
+  browser = webdriver.Chrome(service=Service(driver_path), options=options)
+
   wait = WebDriverWait(browser, 10)
 
 def navigate() -> None:

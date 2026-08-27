@@ -1,0 +1,2 @@
+browsers/brave/** filter=lfs diff=lfs merge=lfs -text
+chromedriver/** filter=lfs diff=lfs merge=lfs -text
